@@ -1,0 +1,202 @@
+================================================================================
+RODINIA-STYLE BENCHMARK REPORT
+Edge Detection: Sequential, OpenMP, CUDA, and Hybrid Implementations
+================================================================================
+
+OVERALL PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+
+SEQUENTIAL:
+  Average Compute Time: 0.131521 ± 0.011482 seconds
+
+OPENMP:
+  Average Compute Time: 0.105544 ± 0.047670 seconds
+  Average Speedup vs Sequential: 1.25x
+
+CUDA:
+  Average Compute Time: 0.004293 ± 0.002719 seconds
+  Average Speedup vs Sequential: 30.64x
+
+HYBRID:
+  Average Compute Time: 0.003310 ± 0.001089 seconds
+  Average Speedup vs Sequential: 39.74x
+
+
+================================================================================
+DETAILED RESULTS PER IMAGE
+================================================================================
+
+
+Image: 0801
+--------------------------------------------------------------------------------
+
+SEQUENTIAL:
+  Gaussian Blur: 0.113375 ± 0.000430 seconds
+  Rgb To Gray: 0.005199 ± 0.000588 seconds
+  Sobel Edge: 0.008970 ± 0.000698 seconds
+  Total Compute: 0.127544 ± 0.001101 seconds
+
+OPENMP:
+  Gaussian Blur: 0.067549 ± 0.041703 seconds
+  Rgb To Gray: 0.016502 ± 0.005158 seconds
+  Sobel Edge: 0.024004 ± 0.012138 seconds
+  Total Compute: 0.108055 ± 0.057620 seconds
+  Speedup vs Sequential: 1.18x
+
+CUDA:
+  Gaussian Blur: 0.003488 ± 0.000589 seconds
+  Rgb To Gray: 0.000280 ± 0.000034 seconds
+  Sobel Edge: 0.000258 ± 0.000080 seconds
+  Total Compute: 0.004026 ± 0.000653 seconds
+  Speedup vs Sequential: 31.68x
+
+HYBRID:
+  Gaussian Blur: 0.002600 ± 0.001159 seconds
+  Rgb To Gray: 0.000053 ± 0.000007 seconds
+  Sobel Edge: 0.000748 ± 0.000131 seconds
+  Total Compute: 0.003401 ± 0.001280 seconds
+  Speedup vs Sequential: 37.50x
+
+
+Image: 0802
+--------------------------------------------------------------------------------
+
+SEQUENTIAL:
+  Gaussian Blur: 0.114470 ± 0.002216 seconds
+  Rgb To Gray: 0.004819 ± 0.000047 seconds
+  Sobel Edge: 0.008575 ± 0.000102 seconds
+  Total Compute: 0.127864 ± 0.002135 seconds
+
+OPENMP:
+  Gaussian Blur: 0.071831 ± 0.040411 seconds
+  Rgb To Gray: 0.014944 ± 0.004550 seconds
+  Sobel Edge: 0.020341 ± 0.003489 seconds
+  Total Compute: 0.107117 ± 0.046741 seconds
+  Speedup vs Sequential: 1.19x
+
+CUDA:
+  Gaussian Blur: 0.003159 ± 0.001164 seconds
+  Rgb To Gray: 0.000250 ± 0.000056 seconds
+  Sobel Edge: 0.000200 ± 0.000022 seconds
+  Total Compute: 0.003610 ± 0.001238 seconds
+  Speedup vs Sequential: 35.42x
+
+HYBRID:
+  Gaussian Blur: 0.001862 ± 0.000598 seconds
+  Rgb To Gray: 0.000042 ± 0.000000 seconds
+  Sobel Edge: 0.000685 ± 0.000080 seconds
+  Total Compute: 0.002589 ± 0.000676 seconds
+  Speedup vs Sequential: 49.39x
+
+
+Image: 0803
+--------------------------------------------------------------------------------
+
+SEQUENTIAL:
+  Gaussian Blur: 0.128540 ± 0.000890 seconds
+  Rgb To Gray: 0.005512 ± 0.000050 seconds
+  Sobel Edge: 0.009747 ± 0.000184 seconds
+  Total Compute: 0.143799 ± 0.000979 seconds
+
+OPENMP:
+  Gaussian Blur: 0.075317 ± 0.037301 seconds
+  Rgb To Gray: 0.018296 ± 0.002863 seconds
+  Sobel Edge: 0.019788 ± 0.004909 seconds
+  Total Compute: 0.113401 ± 0.042378 seconds
+  Speedup vs Sequential: 1.27x
+
+CUDA:
+  Gaussian Blur: 0.006802 ± 0.004481 seconds
+  Rgb To Gray: 0.000304 ± 0.000043 seconds
+  Sobel Edge: 0.000234 ± 0.000058 seconds
+  Total Compute: 0.007340 ± 0.004488 seconds
+  Speedup vs Sequential: 19.59x
+
+HYBRID:
+  Gaussian Blur: 0.002788 ± 0.000906 seconds
+  Rgb To Gray: 0.000042 ± 0.000004 seconds
+  Sobel Edge: 0.000775 ± 0.000112 seconds
+  Total Compute: 0.003605 ± 0.001004 seconds
+  Speedup vs Sequential: 39.89x
+
+
+Image: 0804
+--------------------------------------------------------------------------------
+
+SEQUENTIAL:
+  Gaussian Blur: 0.101896 ± 0.001252 seconds
+  Rgb To Gray: 0.004389 ± 0.000117 seconds
+  Sobel Edge: 0.007752 ± 0.000244 seconds
+  Total Compute: 0.114037 ± 0.001005 seconds
+
+OPENMP:
+  Gaussian Blur: 0.055969 ± 0.026546 seconds
+  Rgb To Gray: 0.019246 ± 0.006544 seconds
+  Sobel Edge: 0.018338 ± 0.005985 seconds
+  Total Compute: 0.093552 ± 0.031353 seconds
+  Speedup vs Sequential: 1.22x
+
+CUDA:
+  Gaussian Blur: 0.002205 ± 0.000736 seconds
+  Rgb To Gray: 0.000155 ± 0.000055 seconds
+  Sobel Edge: 0.000145 ± 0.000070 seconds
+  Total Compute: 0.002505 ± 0.000851 seconds
+  Speedup vs Sequential: 45.53x
+
+HYBRID:
+  Gaussian Blur: 0.002743 ± 0.000933 seconds
+  Rgb To Gray: 0.000046 ± 0.000008 seconds
+  Sobel Edge: 0.000691 ± 0.000079 seconds
+  Total Compute: 0.003480 ± 0.000994 seconds
+  Speedup vs Sequential: 32.77x
+
+
+Image: 0805
+--------------------------------------------------------------------------------
+
+SEQUENTIAL:
+  Gaussian Blur: 0.129046 ± 0.001062 seconds
+  Rgb To Gray: 0.005583 ± 0.000160 seconds
+  Sobel Edge: 0.009730 ± 0.000211 seconds
+  Total Compute: 0.144359 ± 0.001011 seconds
+
+OPENMP:
+  Gaussian Blur: 0.077910 ± 0.038161 seconds
+  Rgb To Gray: 0.010771 ± 0.005137 seconds
+  Sobel Edge: 0.016917 ± 0.011267 seconds
+  Total Compute: 0.105597 ± 0.053519 seconds
+  Speedup vs Sequential: 1.37x
+
+CUDA:
+  Gaussian Blur: 0.003506 ± 0.000868 seconds
+  Rgb To Gray: 0.000255 ± 0.000065 seconds
+  Sobel Edge: 0.000223 ± 0.000086 seconds
+  Total Compute: 0.003984 ± 0.001008 seconds
+  Speedup vs Sequential: 36.23x
+
+HYBRID:
+  Gaussian Blur: 0.002669 ± 0.001034 seconds
+  Rgb To Gray: 0.000039 ± 0.000004 seconds
+  Sobel Edge: 0.000766 ± 0.000075 seconds
+  Total Compute: 0.003474 ± 0.001079 seconds
+  Speedup vs Sequential: 41.55x
+
+
+================================================================================
+BEST IMPLEMENTATION ANALYSIS
+================================================================================
+
+Image 0801: Best = HYBRID (0.003401s)
+Image 0802: Best = HYBRID (0.002589s)
+Image 0803: Best = HYBRID (0.003605s)
+Image 0804: Best = CUDA (0.002505s)
+Image 0805: Best = HYBRID (0.003474s)
+
+
+Implementation Victory Count:
+  HYBRID: 4/5 images
+  CUDA: 1/5 images
+
+================================================================================
+END OF REPORT
+================================================================================

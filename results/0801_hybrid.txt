@@ -1,0 +1,60 @@
+Hybrid Implementation (OpenMP + CUDA)
+OpenMP threads: 20
+Image: 2040x1356, 3 channels
+Load time: 0.006805 seconds
+Host to Device transfer: 0.001872 seconds
+Device to Host transfer: 0.000463 seconds
+Gaussian Blur: 0.003330 seconds
+RGB to Gray: 0.000046 seconds
+Sobel Edge: 0.000868 seconds
+Total Compute: 0.004244 seconds
+Save time: 0.002328 seconds
+Total time: 0.034204 seconds
+Hybrid Implementation (OpenMP + CUDA)
+OpenMP threads: 20
+Image: 2040x1356, 3 channels
+Load time: 0.008015 seconds
+Host to Device transfer: 0.002378 seconds
+Device to Host transfer: 0.000422 seconds
+Gaussian Blur: 0.004285 seconds
+RGB to Gray: 0.000059 seconds
+Sobel Edge: 0.000852 seconds
+Total Compute: 0.005196 seconds
+Save time: 0.003765 seconds
+Total time: 0.037093 seconds
+Hybrid Implementation (OpenMP + CUDA)
+OpenMP threads: 20
+Image: 2040x1356, 3 channels
+Load time: 0.006613 seconds
+Host to Device transfer: 0.001202 seconds
+Device to Host transfer: 0.000284 seconds
+Gaussian Blur: 0.001323 seconds
+RGB to Gray: 0.000044 seconds
+Sobel Edge: 0.000602 seconds
+Total Compute: 0.001969 seconds
+Save time: 0.002744 seconds
+Total time: 0.024430 seconds
+Hybrid Implementation (OpenMP + CUDA)
+OpenMP threads: 20
+Image: 2040x1356, 3 channels
+Load time: 0.006758 seconds
+Host to Device transfer: 0.001304 seconds
+Device to Host transfer: 0.000278 seconds
+Gaussian Blur: 0.001302 seconds
+RGB to Gray: 0.000060 seconds
+Sobel Edge: 0.000574 seconds
+Total Compute: 0.001936 seconds
+Save time: 0.002728 seconds
+Total time: 0.023884 seconds
+Hybrid Implementation (OpenMP + CUDA)
+OpenMP threads: 20
+Image: 2040x1356, 3 channels
+Load time: 0.010275 seconds
+Host to Device transfer: 0.002056 seconds
+Device to Host transfer: 0.000401 seconds
+Gaussian Blur: 0.002758 seconds
+RGB to Gray: 0.000056 seconds
+Sobel Edge: 0.000845 seconds
+Total Compute: 0.003659 seconds
+Save time: 0.003962 seconds
+Total time: 0.038374 seconds

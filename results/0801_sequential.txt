@@ -1,0 +1,45 @@
+Sequential Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.013491 seconds
+Gaussian Blur: 0.113583 seconds
+RGB to Gray: 0.004777 seconds
+Sobel Edge: 0.009047 seconds
+Total Compute: 0.127407 seconds
+Save time: 0.003338 seconds
+Total time: 0.144277 seconds
+Sequential Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.007235 seconds
+Gaussian Blur: 0.114098 seconds
+RGB to Gray: 0.005184 seconds
+Sobel Edge: 0.008524 seconds
+Total Compute: 0.127806 seconds
+Save time: 0.003032 seconds
+Total time: 0.138103 seconds
+Sequential Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.007341 seconds
+Gaussian Blur: 0.112858 seconds
+RGB to Gray: 0.006339 seconds
+Sobel Edge: 0.010299 seconds
+Total Compute: 0.129496 seconds
+Save time: 0.003263 seconds
+Total time: 0.140130 seconds
+Sequential Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.007357 seconds
+Gaussian Blur: 0.113215 seconds
+RGB to Gray: 0.004813 seconds
+Sobel Edge: 0.008509 seconds
+Total Compute: 0.126537 seconds
+Save time: 0.004464 seconds
+Total time: 0.138389 seconds
+Sequential Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.007838 seconds
+Gaussian Blur: 0.113120 seconds
+RGB to Gray: 0.004884 seconds
+Sobel Edge: 0.008470 seconds
+Total Compute: 0.126474 seconds
+Save time: 0.002675 seconds
+Total time: 0.137020 seconds

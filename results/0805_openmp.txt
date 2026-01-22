@@ -1,0 +1,45 @@
+OpenMP Implementation (20 threads)
+Image: 2040x1536, 3 channels
+Load time: 0.008663 seconds
+Gaussian Blur: 0.153175 seconds
+RGB to Gray: 0.019675 seconds
+Sobel Edge: 0.038854 seconds
+Total Compute: 0.211704 seconds
+Save time: 0.007120 seconds
+Total time: 0.227515 seconds
+OpenMP Implementation (20 threads)
+Image: 2040x1536, 3 channels
+Load time: 0.008391 seconds
+Gaussian Blur: 0.065399 seconds
+RGB to Gray: 0.005408 seconds
+Sobel Edge: 0.015018 seconds
+Total Compute: 0.085825 seconds
+Save time: 0.006847 seconds
+Total time: 0.101093 seconds
+OpenMP Implementation (20 threads)
+Image: 2040x1536, 3 channels
+Load time: 0.008431 seconds
+Gaussian Blur: 0.050252 seconds
+RGB to Gray: 0.005976 seconds
+Sobel Edge: 0.010048 seconds
+Total Compute: 0.066276 seconds
+Save time: 0.007330 seconds
+Total time: 0.082064 seconds
+OpenMP Implementation (20 threads)
+Image: 2040x1536, 3 channels
+Load time: 0.008599 seconds
+Gaussian Blur: 0.054069 seconds
+RGB to Gray: 0.011651 seconds
+Sobel Edge: 0.013161 seconds
+Total Compute: 0.078881 seconds
+Save time: 0.007041 seconds
+Total time: 0.094553 seconds
+OpenMP Implementation (20 threads)
+Image: 2040x1536, 3 channels
+Load time: 0.008701 seconds
+Gaussian Blur: 0.066654 seconds
+RGB to Gray: 0.011143 seconds
+Sobel Edge: 0.007504 seconds
+Total Compute: 0.085301 seconds
+Save time: 0.004085 seconds
+Total time: 0.098119 seconds

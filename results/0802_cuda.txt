@@ -1,0 +1,55 @@
+CUDA Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.013044 seconds
+Host to Device transfer: 0.002750 seconds
+Device to Host transfer: 0.001547 seconds
+Gaussian Blur: 0.003503 seconds
+RGB to Gray: 0.000233 seconds
+Sobel Edge: 0.000191 seconds
+Total Compute: 0.003927 seconds
+Save time: 0.002212 seconds
+Total time: 0.027704 seconds
+CUDA Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.008063 seconds
+Host to Device transfer: 0.002198 seconds
+Device to Host transfer: 0.001478 seconds
+Gaussian Blur: 0.002594 seconds
+RGB to Gray: 0.000239 seconds
+Sobel Edge: 0.000197 seconds
+Total Compute: 0.003030 seconds
+Save time: 0.002609 seconds
+Total time: 0.020866 seconds
+CUDA Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.007446 seconds
+Host to Device transfer: 0.001330 seconds
+Device to Host transfer: 0.001438 seconds
+Gaussian Blur: 0.001515 seconds
+RGB to Gray: 0.000179 seconds
+Sobel Edge: 0.000172 seconds
+Total Compute: 0.001866 seconds
+Save time: 0.002737 seconds
+Total time: 0.017731 seconds
+CUDA Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.008767 seconds
+Host to Device transfer: 0.002759 seconds
+Device to Host transfer: 0.001571 seconds
+Gaussian Blur: 0.003119 seconds
+RGB to Gray: 0.000251 seconds
+Sobel Edge: 0.000202 seconds
+Total Compute: 0.003572 seconds
+Save time: 0.039403 seconds
+Total time: 0.060547 seconds
+CUDA Implementation
+Image: 2040x1356, 3 channels
+Load time: 0.008237 seconds
+Host to Device transfer: 0.004349 seconds
+Device to Host transfer: 0.001625 seconds
+Gaussian Blur: 0.005065 seconds
+RGB to Gray: 0.000350 seconds
+Sobel Edge: 0.000239 seconds
+Total Compute: 0.005654 seconds
+Save time: 0.002701 seconds
+Total time: 0.029103 seconds
